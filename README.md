@@ -11,16 +11,5 @@ The newest model is published as a GitHub **release asset** named
 https://github.com/valle3011/BubblR-Model/releases/latest/download/bubblr-model.pt
 ```
 
-Metadata (version, task, class names) lives in [`model.json`](model.json).
-
-## Publishing a new model
-After training in BubblR Model Trainer, take the `best.pt` and create a release
-whose asset is named `bubblr-model.pt`, e.g.:
-
-```
-gh release create v1 "runs/<name>/weights/best.pt#bubblr-model.pt" \
-  -R valle3011/BubblR-Model --title "BubblR model v1"
-```
-
-Then bump `"version"` in `model.json`. The apps show a "new model available"
-note when that version is higher than the one you last downloaded.
+Metadata (version, task, class names, score) lives in
+[`model.json`](model.json). Models here are published only by the maintainer.

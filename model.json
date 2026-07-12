@@ -1,5 +1,7 @@
 {
-  "version": "0",
+  "version": 0,
+  "score": 0.0,
+  "metric": "mAP50-95",
   "task": "detect",
   "classes": ["Bubble", "SFX"],
   "asset": "bubblr-model.pt",
