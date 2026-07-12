@@ -1,0 +1,7 @@
+{
+  "version": "0",
+  "task": "detect",
+  "classes": ["Bubble", "SFX"],
+  "asset": "bubblr-model.pt",
+  "note": "version 0 = no model published yet"
+}
