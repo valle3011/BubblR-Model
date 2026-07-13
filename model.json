@@ -1,6 +1,6 @@
 {
-  "version": 2,
-  "score": 0.8232,
+  "version": 3,
+  "score": 0.9465,
   "metric": "mAP50-95",
   "task": "detect",
   "classes": [
