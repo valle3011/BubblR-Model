@@ -1,12 +1,12 @@
 {
-  "version": 1,
-  "score": 0.8533,
+  "version": 2,
+  "score": 0.8232,
   "metric": "mAP50-95",
   "task": "detect",
   "classes": [
-    "bubble",
-    "sfx"
+    "Bubble",
+    "SFX"
   ],
   "asset": "bubblr-model.pt",
-  "date": "2026-07-12"
+  "date": "2026-07-13"
 }
